@@ -1,4 +1,4 @@
-# 🛒 Hybrid Test Automation Framework
+#  Hybrid Test Automation Framework
 ### End-to-End Web Automation for E-Commerce Application
 
 ![Java](https://img.shields.io/badge/Java-21-orange?logo=java)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+-Project Overview
 
 This project is a **Hybrid Test Automation Framework** built using Java, Selenium WebDriver, and TestNG to automate the testing of an e-commerce web application — [demowebshop.tricentis.com](https://demowebshop.tricentis.com/).
 
@@ -21,7 +21,7 @@ The framework follows the **Page Object Model (POM)** design pattern and support
 
 ---
 
-## 🧰 Technologies Used
+-Technologies Used
 
 | Technology     | Purpose                        |
 |----------------|-------------------------------|
@@ -34,7 +34,7 @@ The framework follows the **Page Object Model (POM)** design pattern and support
 
 ---
 
-## 📁 Project Structure
+-Project Structure
 
 ```
 Automation_Project/
@@ -64,7 +64,7 @@ Automation_Project/
 
 ---
 
-## ⚙️ Configuration
+-Configuration
 
 Edit `src/test/resources/Config/Application.properties`:
 
@@ -76,7 +76,7 @@ Supported values: `Chrome`, `Edge`
 
 ---
 
-## 📊 Test Data (Excel)
+-Test Data (Excel)
 
 Located at `src/test/resources/TestData/TestData.xlsx`
 
@@ -87,7 +87,7 @@ Located at `src/test/resources/TestData/TestData.xlsx`
 
 ---
 
-## 🧪 Test Cases
+-Test Cases
 
 ### Login Tests (`LoginTest.java`)
 | Test | Description |
@@ -112,7 +112,7 @@ Located at `src/test/resources/TestData/TestData.xlsx`
 
 ---
 
-## 🚀 Execution Steps
+-Execution Steps
 
 ### 1. Clone the Repository
 ```bash
@@ -147,7 +147,7 @@ test-output/index.html
 
 ---
 
-## 🏗️ Framework Architecture
+-Framework Architecture
 
 ```
 ┌─────────────────────────────────┐
@@ -163,7 +163,7 @@ test-output/index.html
 
 ---
 
-## 🔑 Key Design Decisions
+-Key Design Decisions
 
 - **Page Object Model** — each page has its own class with `@FindBy` locators and action methods
 - **PageFactory** — all page classes use `PageFactory.initElements()` for element initialization
@@ -173,7 +173,7 @@ test-output/index.html
 
 ---
 
-## ⚠️ Known Limitations
+-Known Limitations
 
 - Demowebshop is a public demo site — occasional downtime may cause test failures
 - Guest checkout uses a fixed email; repeated runs may show "email already used" errors
@@ -181,7 +181,7 @@ test-output/index.html
 
 ---
 
-## 👤 Author
+-Author
 
 **Swayam Shivankar**
 Automation Test Engineer | Java + Selenium + TestNG
